@@ -12,6 +12,7 @@ Group:		Development/Languages/Python
 Source0:	http://alastairs-place.net/projects/netifaces/%{module}-%{version}.tar.gz
 # Source0-md5:	e57e5983f4c286fac5f8068fbfc5c873
 URL:		http://alastairs-place.net/projects/netifaces/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	python-distribute
 BuildRequires:	rpm-pythonprov
