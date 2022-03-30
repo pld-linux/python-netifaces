@@ -8,7 +8,7 @@
 Summary:	Python library to retrieve information about network interfaces
 Name:		python-%{module}
 Version:	0.10.5
-Release:	7
+Release:	8
 License:	MIT
 Group:		Development/Languages/Python
 Source0:	https://files.pythonhosted.org/packages/source/n/%{module}/%{module}-%{version}.tar.gz
