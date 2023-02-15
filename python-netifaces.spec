@@ -7,13 +7,13 @@
 %define		module	netifaces
 Summary:	Python library to retrieve information about network interfaces
 Name:		python-%{module}
-Version:	0.10.5
-Release:	8
+Version:	0.11.0
+Release:	1
 License:	MIT
 Group:		Development/Languages/Python
-Source0:	https://files.pythonhosted.org/packages/source/n/%{module}/%{module}-%{version}.tar.gz
-# Source0-md5:	5b4d1f1310ed279e6df27ef3a9b71519
-URL:		https://alastairs-place.net/projects/netifaces/
+Source0:	https://pypi.debian.net/netifaces/%{module}-%{version}.tar.gz
+# Source0-md5:	3146dcb3297dd018ae5eb9a52b440419
+URL:		https://pypi.org/project/netifaces/
 BuildRequires:	rpmbuild(macros) >= 1.710
 %if %{with python2}
 BuildRequires:	python-devel
