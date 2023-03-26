@@ -17,11 +17,11 @@ Source0:	https://files.pythonhosted.org/packages/source/n/netifaces/%{module}-%{
 # Source0-md5:	3146dcb3297dd018ae5eb9a52b440419
 URL:		https://pypi.org/project/netifaces/
 %if %{with python2}
-BuildRequires:	python-modules >= 1:2.7
+BuildRequires:	python-devel >= 1:2.7
 BuildRequires:	python-setuptools
 %endif
 %if %{with python3}
-BuildRequires:	python3-modules >= 1:3.4
+BuildRequires:	python3-devel >= 1:3.4
 BuildRequires:	python3-setuptools
 %endif
 BuildRequires:	rpmbuild(macros) >= 1.714
