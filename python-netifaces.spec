@@ -9,7 +9,7 @@ Summary:	Python library to retrieve information about network interfaces
 Summary(pl.UTF-8):	Biblioteka Pythona do pobierania informacji o interfejsach sieciowych
 Name:		python-%{module}
 Version:	0.11.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Languages/Python
 #Source0Download: https://pypi.org/simple/netifaces/
