@@ -58,13 +58,19 @@ adresach z interfejsów sieciowych.
 %if %{with python2}
 %py_build
 
-%{?with_tests:%{__python} setup.py test}
+%if %{with tests}
+PYTHONPATH=$(echo $(pwd)/build-2/lib.*) \
+%{__python} test.py
+%endif
 %endif
 
 %if %{with python3}
 %py3_build
 
-%{?with_tests:%{__python3} setup.py test}
+%if %{with tests}
+PYTHONPATH=$(echo $(pwd)/build-3/lib.*) \
+%{__python3} test.py
+%endif
 %endif
 
 %install
